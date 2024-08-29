@@ -89,7 +89,7 @@ const ContactPage: React.FC = () => {
   return (
     <div className="w-full">
       <div className="flex items-center justify-center min-h-screen bg-gray-100">
-        <div className="w-full max-w-sm flex justify-center items-center flex-col px-4 sm:px-6 lg:px-8">
+        <div className="w-full max-w-4xl flex justify-center items-center flex-col px-4 sm:px-6 lg:px-8">
           <button
             className="bg-blue-500 text-white px-4 py-2 rounded-md hover:bg-blue-600 mb-6 w-full sm:w-auto"
             onClick={showContactForm}
@@ -161,26 +161,26 @@ const ContactPage: React.FC = () => {
               <p>Please add a contact using the "Create Contact" button.</p>
             </div>
           )}
-          <div className="flex flex-wrap gap-4 p-4 justify-center">
+          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6 w-full mt-4">
             {contactData.map((contact) => (
               <div
                 key={contact.id}
-                className="bg-white p-4 rounded-md shadow-md w-48"
+                className="bg-white p-6 rounded-md shadow-md hover:shadow-lg transition-shadow duration-300"
               >
                 <div className="flex justify-center items-center h-20 bg-gray-200 rounded-md mb-4">
-                  <span className="text-gray-700 font-bold text-lg">
+                  <span className="text-gray-700 font-bold text-lg text-center">
                     {contact.firstName} {contact.lastName}
                   </span>
                 </div>
-                <div className="flex justify-between">
+                <div className="flex flex-col sm:flex-row justify-between gap-2">
                   <button
-                    className="bg-green-500 text-white px-4 py-2 rounded-md hover:bg-green-600"
+                    className="bg-green-500 text-white px-4 py-2 rounded-md hover:bg-green-600 w-full sm:w-auto"
                     onClick={() => handleEdit(contact)}
                   >
                     Edit
                   </button>
                   <button
-                    className="bg-red-500 text-white px-4 py-2 rounded-md hover:bg-red-600"
+                    className="bg-red-500 text-white px-4 py-2 rounded-md hover:bg-red-600 w-full sm:w-auto"
                     onClick={() => handleDelete(contact.id)}
                   >
                     Delete
