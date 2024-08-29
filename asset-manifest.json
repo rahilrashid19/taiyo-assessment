@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/rahilrashid19/taiyo-assessment/static/css/main.610ff211.css",
-    "main.js": "/rahilrashid19/taiyo-assessment/static/js/main.93ee7b2f.js",
-    "static/js/453.e0d318f7.chunk.js": "/rahilrashid19/taiyo-assessment/static/js/453.e0d318f7.chunk.js",
-    "index.html": "/rahilrashid19/taiyo-assessment/index.html",
-    "main.610ff211.css.map": "/rahilrashid19/taiyo-assessment/static/css/main.610ff211.css.map",
-    "main.93ee7b2f.js.map": "/rahilrashid19/taiyo-assessment/static/js/main.93ee7b2f.js.map",
-    "453.e0d318f7.chunk.js.map": "/rahilrashid19/taiyo-assessment/static/js/453.e0d318f7.chunk.js.map"
+    "main.css": "/taiyo-assessment/static/css/main.610ff211.css",
+    "main.js": "/taiyo-assessment/static/js/main.58e3ceb0.js",
+    "static/js/453.e0d318f7.chunk.js": "/taiyo-assessment/static/js/453.e0d318f7.chunk.js",
+    "index.html": "/taiyo-assessment/index.html",
+    "main.610ff211.css.map": "/taiyo-assessment/static/css/main.610ff211.css.map",
+    "main.58e3ceb0.js.map": "/taiyo-assessment/static/js/main.58e3ceb0.js.map",
+    "453.e0d318f7.chunk.js.map": "/taiyo-assessment/static/js/453.e0d318f7.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.610ff211.css",
-    "static/js/main.93ee7b2f.js"
+    "static/js/main.58e3ceb0.js"
   ]
 }
